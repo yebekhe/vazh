@@ -40,6 +40,7 @@ Or copy the raw string:
 incy://routing/onadd/eyJSZW1vdGVETlNJUCI6IjEuMS4xLjEiLCJGYWtlRE5TIjoiZmFsc2UiLCJMYXN0VXBkYXRlZCI6IjIwMjYtMDYtMDFUMTQ6MjY6NDlaIiwiUmVtb3RlRE5TRG9tYWluIjoiaHR0cHM6XC9cL2Nsb3VkZmxhcmUtZG5zLmNvbVwvZG5zLXF1ZXJ5IiwiUHJveHlTaXRlcyI6W10sIkRvbWVzdGljRE5TSVAiOiI4LjguOC44IiwiQmxvY2tTaXRlcyI6WyJnZW9zaXRlOkNBVEVHT1JZLUFEUy1JUiIsImdlb3NpdGU6Q0FURUdPUlktQURTIiwiZ2Vvc2l0ZTpBREJMT0NLIiwiZ2Vvc2l0ZTpBREJMT0NLUExV统一... (truncated for preview)
 
 ```
+
 ### 🚀 Shadowrocket
 To load the rock-solid .conf profile containing tailored DNS optimizations, custom hooks for infrastructure systems (*.apple.com, *.microsoft.com), and advanced fail-safes:
  1. Copy the URL to the Shadowrocket configuration file:
@@ -48,12 +49,14 @@ To load the rock-solid .conf profile containing tailored DNS optimizations, cust
    
    ```
  2. Open **Shadowrocket** ➜ Tap **Settings** ➜ **Config** ➜ **Add Configuration** ➜ Paste the URL.
+
 ## 🛠 Included Client Configs
 | Client | Config Type | Core Optimizations | Status |
 |---|---|---|---|
 | **InTransit** | Deep JSON Hook (incy://) | Smart DNS, Advanced Geo-site filtering | 🟢 Active |
 | **Shadowrocket** | Optimized .conf Profile | TCP Fast Open, Session Ticket Resumption, DPI Failover | 🟢 Active |
 | **Clash / Sing-Box** | *Coming Soon* | - | 🟡 Planned |
+
 <div align="center">
 ### 🤝 Contributions & Support
 This repo is fully open-source. If you run into broken routing domains or problematic local addresses, feel free to open an Issue or submit a PR. Let's keep the connection fluid.
